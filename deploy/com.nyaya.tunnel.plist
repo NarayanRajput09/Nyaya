@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.nyaya.tunnel</string>
+  <key>ProgramArguments</key><array>
+    <string>cloudflared</string><string>--config</string>
+    <string>~/.cloudflared/nyaya.yml</string><string>tunnel</string><string>run</string><string>nyaya</string>
+  </array>
+  <key>RunAtLoad</key><true/><key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>logs/tunnel.log</string>
+  <key>StandardErrorPath</key><string>logs/tunnel.log</string>
+</dict></plist>

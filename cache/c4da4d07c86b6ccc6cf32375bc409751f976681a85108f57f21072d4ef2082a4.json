@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "text": "{\"eligible\": false, \"category\": \"\", \"reason\": \"no category identified; ask client about income/category\"}",
+ "ts": 1790861504.9079616,
+ "parsed": {
+  "eligible": false,
+  "category": "",
+  "reason": "no category identified; ask client about income/category"
+ }
+}
